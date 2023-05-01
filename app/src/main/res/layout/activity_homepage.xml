@@ -23,7 +23,7 @@
             android:textColor="@color/black"
             android:textSize="@dimen/_20ssp"
             android:textStyle="bold"
-            android:layout_marginRight="@dimen/_140sdp"
+            android:layout_marginRight="@dimen/_120sdp"
             tools:layout_editor_absoluteX="72dp"
             tools:layout_editor_absoluteY="16dp"
             tools:ignore="MissingConstraints" />
@@ -31,10 +31,8 @@
             android:layout_width="26dp"
             android:layout_height="26dp"
             android:src="@drawable/search"
-            android:layout_marginRight="@dimen/_10sdp"
             tools:ignore="MissingConstraints"
             android:layout_marginTop="@dimen/_10sdp"
-            tools:layout_editor_absoluteX="311dp"
             tools:layout_editor_absoluteY="16dp" />
 
         <ImageView
@@ -51,10 +49,10 @@
 
 
     <androidx.cardview.widget.CardView
-        android:layout_width="385dp"
+        android:layout_width="320dp"
         android:layout_height="40dp"
         app:cardCornerRadius="@dimen/_10sdp"
-        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
         tools:ignore="MissingConstraints"
         app:cardBackgroundColor="#F1F6F9"
         tools:layout_editor_absoluteX="13dp"
@@ -85,10 +83,10 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="385dp"
+        android:layout_width="320dp"
         android:layout_height="150dp"
         android:layout_marginTop="@dimen/_10sdp"
-        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
         app:cardBackgroundColor="#0A4D68"
         app:cardCornerRadius="@dimen/_10sdp"
         tools:ignore="MissingConstraints"
@@ -275,12 +273,11 @@
 
 
     <androidx.cardview.widget.CardView
-        android:layout_width="@dimen/_140sdp"
+        android:layout_width="@dimen/_120sdp"
         android:layout_height="@dimen/_160sdp"
-        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
         app:cardCornerRadius="@dimen/_10sdp"
-        app:cardBackgroundColor="#C0C0C0"
-        android:layout_marginTop="@dimen/_20sdp">
+        app:cardBackgroundColor="#C0C0C0">
 
 
         <LinearLayout
@@ -300,23 +297,22 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="@dimen/_20sdp"
-            android:src="@drawable/heart"
+            android:src="@drawable/heart3"
             android:layout_marginLeft="@dimen/_50sdp"
             android:layout_gravity="center_horizontal"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="--40 % off"
-            android:background="@color/darkred"/>
+            android:background="@color/red"/>
 
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
-        android:layout_width="@dimen/_140sdp"
+        android:layout_width="@dimen/_120sdp"
         android:layout_height="@dimen/_160sdp"
         android:layout_marginHorizontal="@dimen/_10sdp"
         app:cardCornerRadius="@dimen/_10sdp"
-        app:cardBackgroundColor="#C0C0C0"
-        android:layout_marginTop="@dimen/_20sdp">
+        app:cardBackgroundColor="#C0C0C0">
 
 
         <LinearLayout
@@ -342,7 +338,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="--20 % off"
-            android:background="@color/darkred"/>
+            android:background="@color/red"
+          />
 
     </androidx.cardview.widget.CardView>
 
@@ -352,18 +349,19 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_20sdp">
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp">
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_10sdp"
             android:orientation="vertical"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:layout_marginRight="@dimen/_10sdp">
+            android:id="@+id/home"
+            android:layout_marginLeft="@dimen/_10sdp">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
                 android:src="@drawable/home"/>
 
             <TextView
@@ -377,13 +375,14 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_10sdp"
             android:orientation="vertical"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:layout_marginRight="@dimen/_10sdp">
+            android:id="@+id/Categories"
+            android:layout_marginLeft="@dimen/_10sdp">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/categories"/>
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/categories"
+                android:layout_marginLeft="@dimen/_10sdp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -396,12 +395,12 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_10sdp"
             android:orientation="vertical"
-            android:layout_marginRight="@dimen/_10sdp"
             android:layout_marginLeft="@dimen/_10sdp">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:src="@drawable/discount"/>
 
             <TextView
@@ -416,12 +415,12 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_10sdp"
             android:orientation="vertical"
-            android:layout_marginRight="@dimen/_20sdp"
             android:layout_marginLeft="@dimen/_10sdp">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:src="@drawable/heart"/>
 
             <TextView
@@ -435,18 +434,18 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_10sdp"
             android:orientation="vertical"
-            android:layout_marginRight="@dimen/_10sdp"
             android:layout_marginLeft="@dimen/_10sdp">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/user"/>
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/user"
+                android:layout_marginLeft="@dimen/_10sdp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Account"/>
+                android:text="Account" />
 
         </LinearLayout>
     </LinearLayout>
