@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 public class homepage extends AppCompatActivity {
-    LinearLayout home,Categories;
+    LinearLayout home,categories;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,8 +18,8 @@ public class homepage extends AppCompatActivity {
     }
 
     private void initview() {
-        Categories=findViewById(R.id.Categories);
-        Categories.setOnClickListener(new View.OnClickListener() {
+        categories=findViewById(R.id.categories);
+        categories.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent A=new Intent(homepage.this,Categoriesactivity.class);

@@ -96,6 +96,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="KIDS"
+<<<<<<< HEAD
+                android:id="@+id/txtkids"
+=======
+>>>>>>> 1d368a3821bb3be74bd7e826e05c7f4528247feb
                 android:layout_marginVertical="@dimen/_4sdp"
                 android:layout_marginLeft="@dimen/_40sdp"/>
         </LinearLayout>

@@ -14,7 +14,15 @@
         <activity
             android:name=".wishlistactivity"
             android:exported="true" >
+<<<<<<< HEAD
 
+=======
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+>>>>>>> 1d368a3821bb3be74bd7e826e05c7f4528247feb
         </activity>
         <activity
             android:name=".discount123activiy"
